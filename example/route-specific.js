@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 var port = process.env.PORT || 8080;
 
 var auth = require('../index.js');
-var authn = new auth('user.exemple','pswd123');
+//var authn = new auth('user.exemple','pswd123');
 
 // Hotspots from framework
 //
@@ -36,7 +36,7 @@ var authn = new auth('user.exemple','pswd123');
 //auth.accessGranted = accessGranted;
 
 
-app.get('/test', authn, function (req, res) {
+app.get('/test', auth('user.exemple','pswd123'), function (req, res) {
     res.json({message: "auth test ok!!"});
 });
 

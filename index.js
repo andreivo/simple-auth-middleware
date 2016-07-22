@@ -49,6 +49,10 @@ Object.defineProperty(exports, 'unauthMessageFunction', {
     writable: true
 });
 
+Object.defineProperty(exports, 'accessGranted', {
+    writable: true
+});
+
 /**
  * Makes it necessary to use password on all routes * 
  *
