@@ -1,0 +1,35 @@
+{
+    "name": "simple-auth-middleware",
+    "description": "autenticate routes",
+    "version": "1.0.0",
+    "author": "André Ivo <andre.ivo@gmail.com> ",
+    "license": "MIT",
+    "maintainers": [
+        "andreivo <andre.ivo@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andreivo/simple-auth-middleware.git"
+    },
+    "keywords": [
+        "authentication",
+        "express",
+        "middleware",
+        "framework"
+    ],
+    "dependencies": {
+        "body-parser": "^1.11.0",
+        "express": "^4.11.2"
+    },
+    "devDependencies": {
+    },
+    "files": [
+        "LICENSE",
+        "README.md",
+        "HISTORY.md",
+        "index.js"
+    ],
+    "engines": {
+        "node": ">= 0.8.0"
+    }
+}
