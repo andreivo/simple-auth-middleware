@@ -1,6 +1,6 @@
 {
     "name": "simple-auth-middleware",
-    "description": "autenticate routes",
+    "description": "Middleware Framework for authentication of ExpressJS Routes",
     "version": "1.0.0",
     "author": "André Ivo <andre.ivo@gmail.com> ",
     "license": "MIT",
