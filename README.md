@@ -3,6 +3,7 @@
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Node.js Version][node-version-image]][node-version-url]
+[![HitCount](http://hits.dwyl.io/andreivo/simple-auth-middleware.svg)](http://hits.dwyl.io/andreivo/simple-auth-middleware)
 
 Middleware Framework for authentication of ExpressJS Routes.
 
